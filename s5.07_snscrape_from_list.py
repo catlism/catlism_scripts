@@ -1,3 +1,22 @@
+'''
+    Script to collect data from Instagram | v1.0.0
+    part of Di Cristofaro, Matteo. Corpus Approaches to Language in Social Media. New York: Routledge, 2023. https://doi.org/10.4324/9781003225218.
+    Copyright (C) 2023 Matteo Di Cristofaro
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+'''
+
 # Adapted from the following sources
 # https://github.com/MartinBeckUT/TwitterScraper/blob/127b15b3878ab0c1b74438011056d89152701db1/snscrape/python-wrapper/snscrape-python-wrapper.py
 # https://github.com/satomlins/snscrape-by-location/blob/1f605fb6e1caff3577198792a7717ffbf3c3f454/snscrape_by_location_tutorial.ipynb
