@@ -1,3 +1,22 @@
+'''
+    Script s6.05 | v1.0.0 | consult <https://catlism.github.io> for more info.
+    part of Di Cristofaro, Matteo. Corpus Approaches to Language in Social Media. New York: Routledge, 2023. https://doi.org/10.4324/9781003225218.
+    Adapted from Morgan, Jay. ‘Jaypmorgan/Chatlog-Scrapper: Archive-Doi’. Python, July 2022. https://doi.org/10.5281/zenodo.6896236.
+    Copyright (C) 2023 Matteo Di Cristofaro
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+'''
+
 # Import modules for: regular expressions and for working with local files; List to enforce the type of data collected
 # (this is only required for Python < 3.9), and selected functions from Selenium
 import re

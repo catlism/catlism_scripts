@@ -1,5 +1,5 @@
 '''
-    Script to collect data from Instagram | v1.0.0
+    Script s5.08 | v1.0.0 | consult <https://catlism.github.io> for more info.
     part of Di Cristofaro, Matteo. Corpus Approaches to Language in Social Media. New York: Routledge, 2023. https://doi.org/10.4324/9781003225218.
     Copyright (C) 2023 Matteo Di Cristofaro
 
