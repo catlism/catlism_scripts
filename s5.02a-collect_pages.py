@@ -71,5 +71,5 @@ for file in files:
         with open("downloaded/" + urn + ".html", "a") as file_output:
             # Write the source code of the page into the output file
             file_output.write(str(soup))
-        # Wait 4 secons before restarting the loop
+        # Wait 4 seconds before restarting the loop
         sleep(4)

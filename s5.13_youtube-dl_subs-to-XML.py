@@ -1,21 +1,21 @@
-'''
-    Script s5.13 | v1.0.0 | consult <https://catlism.github.io> for more info.
-    part of Di Cristofaro, Matteo. Corpus Approaches to Language in Social Media. New York: Routledge, 2023. https://doi.org/10.4324/9781003225218.
-    Copyright (C) 2023 Matteo Di Cristofaro
+"""
+Script s5.13 | v1.1.0 | consult <https://catlism.github.io> for more info.
+part of Di Cristofaro, Matteo. Corpus Approaches to Language in Social Media. New York: Routledge, 2023. https://doi.org/10.4324/9781003225218.
+Copyright (C) 2023 Matteo Di Cristofaro
 
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
 
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>.
-'''
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+"""
 
 # Import modules for: working on local folders and files; regular expressions; finding files in folder;
 # reading JSON files; using BeautifulSoup; working with XML files
@@ -98,7 +98,7 @@ for filename in unique_filenames_list:
         # Parse its XML contents using BeautifulSoup
         soup = BeautifulSoup(f, features="xml")
         # If the attribute 'ac' (= autocaption) with value '255' is found in the <s> element tag then the subtitles are the result of autocaptioning; hence assign the value 'true' to the variable 'is_ac'. Otherwise assign the value 'false' to 'is_ac'
-        if soup.body.find("s", attrs={"ac": "255"}):
+        if soup.body.find("s", attrs={"ac": True}):
             is_ac = "true"
         else:
             is_ac = "false"
